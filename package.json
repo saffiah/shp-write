@@ -1,7 +1,7 @@
 {
   "name": "shp-write-prj",
-  "version": "0.3.4",
-  "description": "write shapefiles from pure javascript",
+  "version": "1.3.3",
+  "description": "write shapefiles from pure javascript, projection is EPSG:2874",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec",
@@ -34,8 +34,8 @@
     "url": "https://github.com/mapbox/shp-write/issues"
   },
   "dependencies": {
-    "dbf": "0.1.4",
-    "jszip": "2.5.0"
+    "dbf": "^0.1.4",
+    "jszip": "^3.1.5"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
